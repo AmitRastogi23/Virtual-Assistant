@@ -1,4 +1,3 @@
-// http://127.0.0.1:3000/Virtual_Assistant/index.html
 let btn = document.querySelector('#btn')
 let content = document.querySelector('#content')
 let voice = document.querySelector('#voice')
@@ -93,4 +92,5 @@ function takeCommand(command){
         speak(`Here what I found on internet regarding ${final}`)
         window.open(`https://www.google.com/search?q=${final}`)
     }
+
 }
