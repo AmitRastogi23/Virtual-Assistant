@@ -25,7 +25,7 @@ function wishMe(){
     }
 }
 window.addEventListener('load',()=>{
-    // wishMe()
+    wishMe()
 })
 
 // speechRecognition class to listen the voice
@@ -94,3 +94,4 @@ function takeCommand(command){
     }
 
 }
+
