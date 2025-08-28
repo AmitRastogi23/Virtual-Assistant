@@ -1,3 +1,4 @@
+// http://127.0.0.1:3000/Virtual_Assistant/index.html
 let btn = document.querySelector('#btn')
 let content = document.querySelector('#content')
 let voice = document.querySelector('#voice')
@@ -88,10 +89,38 @@ function takeCommand(command){
         speak("opening vscode")
         window.open("vscode://")
     } else {
-        let final = command.replace("shipra","")||command.replace("shifra","")
+        let final = (command.replace("zia","")||command.replace("ziya","")||command.replace("jiya","")||command.replace("jia",""))
         speak(`Here what I found on internet regarding ${final}`)
         window.open(`https://www.google.com/search?q=${final}`)
     }
-
 }
 
+window.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector('.container');
+  const particleNum = 200;
+
+  for (let i = 0; i < particleNum; i++) {
+    const circleContainer = document.createElement('div');
+    circleContainer.classList.add('circle-container');
+
+    const size = Math.floor(Math.random() * 8) + 2;
+    circleContainer.style.width = `${size}px`;
+    circleContainer.style.height = `${size}px`;
+
+    const startX = Math.random() * 100;
+    circleContainer.style.left = `${startX}vw`;
+
+    const duration = 7000 + Math.random() * 4000;
+    circleContainer.style.animationDuration = `${duration}ms`;
+
+    const delay = Math.random() * 11000;
+    circleContainer.style.animationDelay = `${delay}ms`;
+
+    const circle = document.createElement('div');
+    circle.classList.add('circle');
+    circle.style.animationDelay = `${Math.random() * 4000}ms`;
+
+    circleContainer.appendChild(circle);
+    container.appendChild(circleContainer);
+  }
+});
