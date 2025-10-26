@@ -49,8 +49,14 @@ function takeCommand(command){
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     if(command.includes("hello") || command.includes("hey")){
         speak("Hello Sir , How can I help you")
+    } else if(command.include("good morning")){
+        speak("Good Morning Sir , How can I help you");
+    } else if(command.include("good afternoon")){
+        speak("Good afternoon Sir , How can I help you");
+    } else if(command.include("good evening")){
+        speak("Good evening Sir , How can I help you");
     } else if(command.includes("who are you")){
-        speak("I'm Shifra , Your Virtual Assistant")
+        speak("I'm Ziya , Your Virtual Assistant")
     } else if(command.includes("time")){
         let time = new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
         speak(time)
@@ -81,7 +87,7 @@ function takeCommand(command){
         window.open("https://t.me/Rastogi_23")
     } else if(command.includes("open calculator") || command.includes("calculator")){
         speak("opening calculator")
-        window.open("calculator://")
+        window.open("https://calculator-1.com/")
     } else if(command.includes("open calendar") || command.includes("calendar")){
         speak("opening calendar")    
         window.open("https://www.timeanddate.com/calendar/monthly.html")      
@@ -124,3 +130,4 @@ window.addEventListener("DOMContentLoaded", () => {
     container.appendChild(circleContainer);
   }
 });
+
