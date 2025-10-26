@@ -49,11 +49,11 @@ function takeCommand(command){
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     if(command.includes("hello") || command.includes("hey")){
         speak("Hello Sir , How can I help you")
-    } else if(command.include("good morning")){
+    } else if(command.includes("good morning")){
         speak("Good Morning Sir , How can I help you");
-    } else if(command.include("good afternoon")){
+    } else if(command.includes("good afternoon")){
         speak("Good afternoon Sir , How can I help you");
-    } else if(command.include("good evening")){
+    } else if(command.includes("good evening")){
         speak("Good evening Sir , How can I help you");
     } else if(command.includes("who are you")){
         speak("I'm Ziya , Your Virtual Assistant")
@@ -130,4 +130,5 @@ window.addEventListener("DOMContentLoaded", () => {
     container.appendChild(circleContainer);
   }
 });
+
 
