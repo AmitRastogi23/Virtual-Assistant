@@ -6,8 +6,7 @@ The Virtual Assistant is a browser-based interactive application developed using
 
 This project highlights practical implementation of front-end engineering, DOM manipulation, and interactive UI design.
 
-## 🌐 Live Demo
-
+### 🌐 Live Demo
 👉 https://amitrastogi23.github.io/Virtual-Assistant/
 
 ## 🚀 Key Features
@@ -24,10 +23,10 @@ This project highlights practical implementation of front-end engineering, DOM m
 
 ## 📂 Project Structure
 Virtual-Assistant/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
+-│── index.html
+-│── style.css
+-│── script.js
+-│── assets/
 
 ## ⚙️ Installation & Setup
 git clone https://github.com/AmitRastogi23/Virtual-Assistant.git
