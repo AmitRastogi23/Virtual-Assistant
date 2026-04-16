@@ -11,16 +11,16 @@ This project highlights practical implementation of front-end engineering, DOM m
 👉 https://amitrastogi23.github.io/Virtual-Assistant/
 
 🚀 Key Features
--- Interactive and user-friendly interface
--- Command-based interaction system
--- Performs browser-based tasks
--- Responsive design for multiple screen sizes
--- Lightweight and fast execution
+- Interactive and user-friendly interface
+- Command-based interaction system
+- Performs browser-based tasks
+- Responsive design for multiple screen sizes
+- Lightweight and fast execution
 
 🛠️ Tech Stack
--- HTML5 – Structure
--- CSS3 – Styling
--- JavaScript (ES6) – Logic & interactivity
+- HTML5 – Structure
+- CSS3 – Styling
+- JavaScript (ES6) – Logic & interactivity
 
 📂 Project Structure
 Virtual-Assistant/
