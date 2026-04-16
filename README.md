@@ -5,7 +5,7 @@
 The Virtual Assistant is a browser-based interactive application developed using core web technologies. It is designed to simulate an intelligent assistant capable of responding to user inputs and executing basic commands. <br>
 This project highlights practical implementation of front-end engineering, DOM manipulation, and interactive UI design.
 
-### 🌐 Live Demo
+### 🌐 Live Demo <br>
 👉 https://amitrastogi23.github.io/Virtual-Assistant/
 
 ## 🚀 Key Features
