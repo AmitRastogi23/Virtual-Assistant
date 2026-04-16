@@ -23,10 +23,10 @@ This project highlights practical implementation of front-end engineering, DOM m
 
 ## 📂 Project Structure
 Virtual-Assistant/
--│── index.html
--│── style.css
--│── script.js
--│── assets/
+- │── index.html
+- │── style.css
+- │── script.js
+- │── assets/
 
 ## ⚙️ Installation & Setup
 git clone https://github.com/AmitRastogi23/Virtual-Assistant.git
